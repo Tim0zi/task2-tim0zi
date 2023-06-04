@@ -39,14 +39,12 @@ tasks.jar {
     duplicatesStrategy = DuplicatesStrategy.INCLUDE
 }
 
+
 dependencies {
     // Use the Kotlin JUnit 5 integration.
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.1")
     // testImplementation(kotlin("test"))
     // https://mvnrepository.com/artifact/args4j/args4j
     implementation("args4j:args4j:2.33")
-
-
-
     implementation("info.picocli:picocli:4.7.1")
 }

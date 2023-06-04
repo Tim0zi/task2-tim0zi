@@ -27,7 +27,6 @@ class Grep : Runnable {
     }
 }
 
-
 fun main(args: Array<String>) {
     CommandLine(Grep()).execute(*args)
 }
